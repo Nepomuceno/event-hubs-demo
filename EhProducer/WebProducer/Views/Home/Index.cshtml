@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Awesome EH";
+}
+
+<div class="jumbotron">
+    <h1>Event Hubs is awesome</h1>
+    <p class="lead">Type a message and a number</p>
+</div>
+
+<div class="row">
+    <form action="/Home/SendMessages" method="post">
+        Message: <input type="text" name="messages" id="message"><br>
+        Times: <input type="text" name="times" id="times"><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
